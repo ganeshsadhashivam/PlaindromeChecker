@@ -81,6 +81,11 @@ header p {
   pointer-events: none;
 }
 
+.inputs button.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .info-txt {
   font-size: 19px;
   text-align: center;
